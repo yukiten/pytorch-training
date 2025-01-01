@@ -1,5 +1,5 @@
-from utils.function import add 
+from utils.count import count_word
 
 if __name__ == "__main__":
-    n = add(1, 2)
-    print(n)
+    s = "hello world"
+    print(count_word(s, "o"))  # 2
